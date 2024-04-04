@@ -347,7 +347,7 @@ makeContent.labelrepeltree <- function(x) {
         segment.debug = row$segment.debug,
         r = x$label.r,
         text.gp = gpar(
-          col = scales::alpha(row$colour, row$alpha),
+          col = scales::alpha("black", row$alpha),
           fontsize = row$size * .pt,
           fontfamily = row$family,
           fontface = row$fontface,
